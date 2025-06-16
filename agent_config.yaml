@@ -1,0 +1,14 @@
+# Agent Configuration
+agent:
+  name: "CodeGen Agent"
+  version: "1.0"
+  mode: "development"
+  
+code_generation:
+  default_language: "python"
+  output_directory: "generated_code"
+  
+docker:
+  default_image_tag: "codegen-agent"
+  auto_build: true
+  auto_run: false
